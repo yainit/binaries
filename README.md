@@ -21,8 +21,10 @@ Available Versions:
   can be booted without initrd :  root=PARTUUID=    rootwait
   See: kernels/3.18/Readme.md
 
-3.16.7.yainituall33_44-k8EM64T
+3.16.7.yainituall34_45-k8EM64T
   compiled for the Nocona core, 32 bit binary, SSE3 cabable,
   serves with DOT.config-k8EM64T as  template for 64 bit as well,
   can be booted without initrd :  root=PARTUUID=    rootwait
   useful for all recent stable Ubuntu and OpenSuSE distibution releases.
+  This version is without EFI support to avoid more vulnerability by 
+  BIOS Viruses when used at changing hardware (Memstick@travel - or so). 
