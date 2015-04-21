@@ -34,3 +34,11 @@ yatiny.gz
   useful for all recent stable Ubuntu and OpenSuSE distibution releases.
   This version is without EFI support to avoid more vulnerability by 
   BIOS Viruses when used at changing hardware (Memstick@travel - or so). 
+
+3.16.7.yainitall36_48-navx
+  compiled with Nocona architecture for SandyBridge core and higher, 
+  32 bit binary, AVX cabable, deserves all AVX cores, desktop optimized
+  can be booted without initrd :  root=PARTUUID=    rootwait
+  useful for all recent stable Ubuntu and OpenSuSE distibution releases.
+  This version is without EFI support to avoid more vulnerability by 
+  BIOS Viruses when used at changing hardware (Memstick@travel - or so). 
