@@ -50,4 +50,14 @@ yatiny.gz
   SELinux and Apparmor Security  options compiled in but have to be 
   activated at boot explicitly. Without EFI-Support, 
   should boot on OpenSuSE-13.2, Mageia-5RC 
-  as well as on Fedora 21 and Ubuntu-15.04. Last master piece!    
+  as well as on Fedora 21 and Ubuntu-15.04. Last master piece! 
+  
+3.19.7.yainitall-k8EM64T
+  compiled for the Nocona core and higher, 32 bit binary, SSE3 cabable,
+  serves with DOT.config-k8EM64T as  template for 64 bit as well,
+  can be booted without initrd :  root=PARTUUID=    rootwait
+  useful for all recent Ubuntu vivid-17.17 and OpenSuSE-13.2/Tumbleweed
+  distibution releases. This version is without EFI support 
+  to avoid more vulnerability by BIOS Viruses when used at 
+  changing hardware. 
+  Compiled with an additional working driver for RTL8192EU chips.
