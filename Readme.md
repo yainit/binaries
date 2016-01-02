@@ -18,13 +18,17 @@ and the initrd with single busybox and all scripts as of repo initramfs
 
 ---------------------------------------------------------------
 These binaries boot successfully into an OpenSuSE Tumbleweed-20151221 installation
+
 2016-01-02
 
 Dieter Miosga    
 
 Please derive and compile your own kernels and busyboxes according the publications
 under the folders: 
+
 kernels/
+
 kernels/config-templates/
+
 toolchain/busybox
 
