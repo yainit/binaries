@@ -13,7 +13,7 @@ and the initrd with single busybox and all scripts as of repo initramfs
 
     yatiny-4.3.3.yaintuall_1512II-686mmx-allmod.gz
     
-    yatiny.gz  
+    yaunity.gz  
 
 
 ---------------------------------------------------------------
@@ -24,7 +24,7 @@ These binaries boot successfully into an OpenSuSE Tumbleweed-20151221 installati
 Dieter Miosga    
 
 Please derive and compile your own kernels and busyboxes according the publications
-under the folders: 
+under the repository folders: 
 
 kernels/
 
