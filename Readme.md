@@ -19,7 +19,7 @@ and the initrd with single busybox and all scripts as of repo initramfs
 ---------------------------------------------------------------
 These binaries boot successfully into an OpenSuSE Tumbleweed-20151221 installation
 without corrective parameters. Find the modules in the zp*.sfs file to extract to your
-local installation to the /lb/modules/.../kernel directory under the binaries repository.
+local installation to the /lb/modules/.../kernel directory under the init repository.
 
 2016-01-24
 
