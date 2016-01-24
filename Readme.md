@@ -19,7 +19,7 @@ and the initrd with single busybox and all scripts as of repo initramfs
 ---------------------------------------------------------------
 These binaries boot successfully into an OpenSuSE Tumbleweed-20151221 installation
 
-2016-01-02
+2016-01-24
 
 Dieter Miosga    
 
