@@ -4,7 +4,7 @@
 
 Find the binary files
 
--- latest kernel binary configured nearest to allmod for i686 w/MMX
+-- latest 4.3 kernel binary configured nearest to allmod for i686 w/MMX
 
     vmlinuz-4.3.3.yaintiuall_1601IV-686mmx-allmod
 
@@ -15,13 +15,24 @@ and the initrd with single busybox and all scripts as of repo initramfs
     
     yaunity.gz  
 
+-- latest 4.8 binaries for generic-SSSE3 archs and AMD-15h-AVX with modules
+
+   vmlinuz-4.8.5.yainitiuall_1610IV-k15bd1234
+   
+   vmlinuz-4.8.5.yainitiuall_1610IV-3se3
+   
+   zp-4.8.5.yainitiuall_1610IV-k15bd1234-xz.sfs
+   
+    zp-4.8.5.yainitiuall_1610IV-3se3-xz.sfs
+   
 
 ---------------------------------------------------------------
-These binaries boot successfully into an OpenSuSE Tumbleweed-20151221 installation
-without corrective parameters. Find the modules in the zp*.sfs file to extract to your
+These binaries boot successfully into an OpenSuSE Tumbleweed-20160512 
+and Slackware-14.2-x86_32 installation
+without corrective parameters. Find the modules for 4.3.3 in the zp*.sfs file to extract to your
 local installation to the /lb/modules/.../kernel directory under the init repository.
 
-2016-01-24
+2016-10-31
 
 Dieter Miosga    
 
