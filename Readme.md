@@ -15,6 +15,11 @@ and the initrd with single busybox and all scripts as of repo initramfs
     
     yaunity.gz  
 
+==================================================================================
+    Reference Implementation of the 4.8.5 Kernel with BusyBox based initrd
+==================================================================================
+
+
 -- latest 4.8 binaries for generic-SSSE3 archs and AMD-15h-AVX with modules
 
    vmlinuz-4.8.5.yainitiuall_1610IV-k15bd1234
