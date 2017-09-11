@@ -15,7 +15,7 @@ and the initrd with single busybox and all scripts as of repo initramfs
     
     yaunity.gz  
 
-
+--------------------------------------------------------------------------
 
     Reference Implementation of the 4.8.5 Kernel with BusyBox based initrd
 ==================================================================================
@@ -29,9 +29,9 @@ and the initrd with single busybox and all scripts as of repo initramfs
    
    zp-4.8.5.yainitiuall_1610IV-k15bd1234-xz.sfs
    
-    zp-4.8.5.yainitiuall_1610IV-3se3-xz.sfs
+   zp-4.8.5.yainitiuall_1610IV-3se3-xz.sfs
    
-
+--------------------------------------------------------------------------
 
     Reference Implementation of the 4.12.11 Kernel with BusyBox based initrd
 ==================================================================================
@@ -39,9 +39,9 @@ and the initrd with single busybox and all scripts as of repo initramfs
 
 --- latest binaries for generic64 archs with modules, made with OpenSuSE-Leap-42.3 asof 8/2017
 
-   vmlinuz-4.12.11.yainitiuall_1709I-gen64
+     vmlinuz-4.12.11.yainitiuall_1709I-gen64
 
-    zp-4.12.11.yainitiuall_1709I-gen64-xz.sfs
+     zp-4.12.11.yainitiuall_1709I-gen64-xz.sfs
 
 
 
@@ -55,7 +55,7 @@ local installation to the
 /lib/modules/.../kernel 
 directory under the init repository.
 
-2016-12-08
+2017-09-10
 
 Dieter Miosga    
 
