@@ -31,6 +31,24 @@ and the initrd with single busybox and all scripts as of repo initramfs
    
    zp-4.8.5.yainitiuall_1610IV-3se3-xz.sfs
    
+
+--------------------------------------------------------------------------
+
+    Reference Implementation of the 4.9.50 Kernel with BusyBox based initrd
+==================================================================================
+
+
+-- latest 4.9 binaries for i686 with mmx and generic64-westemere SSE4 archs 
+
+   vmlinuz-4.9.50.yainitiuall_1709I-i686mmx 
+   
+   vmlinuz-4.9.50.yainitiuall_1709I-core64
+   
+   zp-4.9.50.yainitiuall_1709I-i686mmx-xz.sfs
+   
+   zp-4.9.50.yainitiuall_1709I-core64-xz.sfs
+   
+
 --------------------------------------------------------------------------
 
     Reference Implementation of the 4.12.11 Kernel with BusyBox based initrd
@@ -54,8 +72,11 @@ Find the modules for 4.x in the zp*.sfs file to extract to your
 local installation to the 
 /lib/modules/.../kernel 
 directory under the init repository.
+Use 'unsquashfs' at the system prompt to extract modules and copy to
+/lib/modules/`uname -r`/
+after booting the kernel to console.   
 
-2017-09-10
+2017-09-25
 
 Dieter Miosga    
 
