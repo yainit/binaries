@@ -38,7 +38,7 @@ and the initrd with single busybox and all scripts as of repo initramfs
 ==================================================================================
 
 
--- latest 4.9 binaries for i686 with mmx and generic64-westemere SSE4 archs 
+-- latest 4.9 binaries for i686 with mmx and generic64-westmere SSE4 archs 
 
    vmlinuz-4.9.50.yainitiuall_1709I-i686mmx 
    
