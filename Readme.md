@@ -17,22 +17,6 @@ and the initrd with single busybox and all scripts as of repo initramfs
 
 --------------------------------------------------------------------------
 
-    Reference Implementation of the 4.8.5 Kernel with BusyBox based initrd
-==================================================================================
-
-
--- latest 4.8 binaries for generic32-SSSE3 archs and AMD-15h-AVX(Bulldozer,..,Kabini,Godavari) with modules
-
-   vmlinuz-4.8.5.yainitiuall_1610IV-k15bd1234
-   
-   vmlinuz-4.8.5.yainitiuall_1610IV-3se3
-   
-   zp-4.8.5.yainitiuall_1610IV-k15bd1234-xz.sfs
-   
-   zp-4.8.5.yainitiuall_1610IV-3se3-xz.sfs
-   
-
---------------------------------------------------------------------------
 
     Reference Implementation of the 4.9.50 Kernel with BusyBox based initrd
 ==================================================================================
@@ -49,7 +33,7 @@ and the initrd with single busybox and all scripts as of repo initramfs
    zp-4.9.50.yainitiuall_1709I-core64-xz.sfs
    
 
---------------------------------------------------------------------------
+-----------------------------------------------------------------------------
 
     Reference Implementation of the 4.12.11 Kernel with BusyBox based initrd
 ==================================================================================
@@ -63,11 +47,37 @@ and the initrd with single busybox and all scripts as of repo initramfs
 
 
 
----------------------------------------------------------------
+-----------------------------------------------------------------------------
 
-These binaries boot successfully into an OpenSuSE Tumbleweed-20160512 
-and Slackware-14.2-x86_32 installation
+    Reference Implementation of the 4.15.18 Kernel with BusyBox based initrd
+==================================================================================
+
+
+--- latest binaries for core64 (nehalem) archs (popcnt pclmul sse3) with modules, made with XUbuntu-16.04.4 asof 4/2018
+
+     vmlinuz-4.15.18.yainitiuall_1804I-core64
+
+     zp-4.15.18.yainitiuall_1804I-core64-xz.sfs
+
+
+-----------------------------------------------------------------------------
+
+    Reference Implementation of the 4.16.3 Kernel with BusyBox based initrd
+==================================================================================
+
+
+--- latest binaries for generic-x86 archs with modules, made with XUbuntu-16.04.4 asof 4/2018
+
+     vmlinuz-4.16.3.yainitiuall_1804II-686mmx
+
+     zp-4.16.3.yainitiuall_1804II-686mmx-xz.sfs
+
+
+---------------------------------------------------------------
+These binaries boot successfully into an OpenSuSE Tumbleweed32
+and Slackware-14.2-x86_32 installation 
 without corrective parameters. 
+The latter ones also boot into Ubuntu 17.10.1/16.04.4
 Find the modules for 4.x in the zp*.sfs file to extract to your
 local installation to the 
 /lib/modules/.../kernel 
@@ -76,7 +86,7 @@ Use 'unsquashfs' at the system prompt to extract modules and copy to
 /lib/modules/`uname -r`/
 after booting the kernel to console.   
 
-2017-09-25
+2018-04-24
 
 Dieter Miosga    
 
